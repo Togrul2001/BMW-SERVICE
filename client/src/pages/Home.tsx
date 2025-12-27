@@ -268,7 +268,7 @@ export default function Home() {
 
               <div className="space-y-8">
                 <motion.a 
-                  href="tel:+994500000000" 
+                  href="tel:+994552111271" 
                   className="flex items-center gap-6 group"
                   whileHover={{ x: 8 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -282,7 +282,7 @@ export default function Home() {
                   <div>
                     <p className="text-sm text-gray-400 mb-1 font-medium tracking-wide">TELEFON</p>
                     <p className="text-2xl font-display font-bold text-white group-hover:text-primary transition-colors">
-                      +994 50 000 00 00
+                      +994 55 211 12 71
                     </p>
                   </div>
                 </motion.a>
@@ -301,7 +301,7 @@ export default function Home() {
                   <div>
                     <p className="text-sm text-gray-400 mb-1 font-medium tracking-wide">ÜNVAN</p>
                     <p className="text-xl font-bold text-white">
-                      Bakı şəhəri, 8-ci mkr,
+                      Bakı Şəhəri Əhmədli metrosunun yaxınlığı,
                       <br />
                       Avto Təmir Mərkəzi
                     </p>
@@ -309,7 +309,7 @@ export default function Home() {
                 </motion.div>
 
                 <motion.a 
-                  href="https://wa.me/994500000000" 
+                  href="https://wa.me/994552111271" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-14 rounded-xl shadow-lg shadow-green-900/20 transition-all"
@@ -338,7 +338,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 border-t border-white/5 bg-black/50">
         <div className="container px-4 mx-auto text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Anar Şükürzadə. Bütün hüquqlar qorunur.</p>
+          <p>&copy; {new Date().getFullYear()} <a className="text-inherit hover:text-blue-500 transition-colors" href="https://galaxytechnology.az" target="_blank" rel="noopener noreferrer">Galaxy Technology</a>. Bütün hüquqlar qorunur.</p>
           <div className="mt-2 text-xs opacity-50">
             Professional BMW Service Center
           </div>

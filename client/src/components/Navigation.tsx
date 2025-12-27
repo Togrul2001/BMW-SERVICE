@@ -69,15 +69,16 @@ export function Navigation() {
               />
             </motion.button>
           ))}
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button 
-              onClick={() => scrollToSection("contact")}
-              className="bg-primary hover:bg-primary/90 text-white font-bold shadow-lg shadow-primary/30"
-            >
-              <Phone className="mr-2 h-4 w-4" />
-              Zəng et
-            </Button>
-          </motion.div>
+<motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+  <a href="tel:+994552111271">
+    <Button
+      className="bg-primary hover:bg-primary/90 text-white font-bold shadow-lg shadow-primary/30"
+    >
+      <Phone className="mr-2 h-4 w-4" />
+      Zəng et
+    </Button>
+  </a>
+</motion.div>
         </nav>
 
         {/* Mobile Toggle */}
@@ -115,12 +116,16 @@ export function Navigation() {
                 {item.label}
               </motion.button>
             ))}
-            <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-              <Button className="w-full bg-primary mt-2" onClick={() => scrollToSection("contact")}>
-                <Phone className="mr-2 h-4 w-4" />
-                Zəng et
-              </Button>
-            </motion.div>
+<motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+  <a href="tel:+994552111271">
+    <Button
+      className="w-full bg-primary mt-2"
+    >
+      <Phone className="mr-2 h-4 w-4" />
+      Zəng et
+    </Button>
+  </a>
+</motion.div>
           </div>
         </motion.div>
       )}
