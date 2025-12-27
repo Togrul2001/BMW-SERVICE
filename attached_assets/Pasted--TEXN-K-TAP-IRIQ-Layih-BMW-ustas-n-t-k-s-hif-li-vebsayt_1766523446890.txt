@@ -1,0 +1,144 @@
+## TEXNİKİ TAPŞIRIQ
+
+**Layihə:** BMW ustası üçün tək səhifəli vebsayt
+**Ad:** ANAR ŞÜKÜRZADƏ
+**Profil:** BMW üzrə peşəkar avtomobil ustası
+
+---
+
+## 1. Layihənin məqsədi
+
+BMW avtomobilləri üzrə ixtisaslaşmış usta **Anar Şükürzadə** üçün:
+
+* Peşəkar görünüşlü
+* Etibar yaradan
+* Vizitka tipli **tək səhifəli (One Page)** vebsayt hazırlanması
+
+Sayt müştərilərə ustanın:
+
+* Hansı işləri gördüyünü
+* BMW sahibləri üçün uyğun usta olduğunu
+* Təcrübəsini və avtomobilini
+  aydın şəkildə göstərməlidir.
+
+---
+
+## 2. Dizayn tələbləri
+
+* **Üslub:** Professional, avtomobil temalı, minimalist
+* **Əsas rəng:** Tünd göy (BMW stilinə uyğun)
+* **Köməkçi rənglər:** Qara, boz, ağ
+* **Logo:** BMW loqosu (dekorativ məqsədlə)
+* **Font:** Modern, oxunaqlı (sans-serif)
+* **Responsive:** Mobil, planşet və desktop uyğunluq mütləqdir
+
+---
+
+## 3. Saytın strukturu (Tək səhifə)
+
+### 3.1. Giriş bölməsi (Hero Section)
+
+* Böyük başlıq:
+  **“BMW avtomobilləri üçün peşəkar texniki xidmət”**
+* Alt mətn:
+  **Anar Şükürzadə – BMW ustası**
+* Fon şəkli:
+
+  * BMW avtomobili və ya ustanın **E46 universal (göy rəngdə)** maşını
+* BMW loqosu (üst hissədə və ya fon element kimi)
+
+---
+
+### 3.2. Haqqında bölməsi
+
+**Mətn məzmunu (nümunə):**
+
+> BMW avtomobilləri üzrə uzunmüddətli təcrübəyə malik ustayam.
+> Avtomobilimin bütün baxım və texniki işlərini özüm görürəm.
+> Müştərilərin tapılmayan problemlərini tapıb həll etməyi bacarıram.
+
+Bu bölmədə:
+
+* Ustanın **şəxsi şəkli**
+* Qısa bio
+
+---
+
+### 3.3. Görülən işlər / Xidmətlər
+
+İkonlu və ya siyahı formatında:
+
+**Texniki baxım və servis**
+
+* Yağ dəyişimi
+* Ümumi baxım
+* Diaqnostika
+
+**Mühərrik və elektronika**
+
+* Şam (svəça) dəyişimi
+* Форсунка (farsunka)
+* MAF sensor
+* Bobin
+* Hava sistemi
+
+**Xadavoy və mexanika**
+
+* Xadavoy işləri
+* Tapılması çətin problemlərin aşkarlanması
+
+**Tuning və məsləhət**
+
+* Sport filtr məsləhəti
+* MAF sensor və bobin seçimi
+* Ümumi tuning məsləhətləri
+
+⚠️ Qeyd: Motor yığımı xaric, BMW üzrə demək olar ki, bütün işlər.
+
+---
+
+
+
+### 3.5. Əlaqə bölməsi
+
+* Telefon nömrəsi
+* WhatsApp düyməsi
+* (İstəyə görə) Instagram linki
+* Ünvan (əgər varsa)
+
+---
+
+## 4. Texniki tələblər
+
+* react veya nextjs /  JavaScript
+* Yüngül və sürətli açılan sayt
+* SEO üçün əsas meta tag-lar
+* WhatsApp “Birbaşa yaz” düyməsi
+* Şəkillər optimizasiya olunmuş
+
+
+---
+
+## 5. Dil
+
+* Sayt dili: **Azərbaycan dili**
+
+---
+
+## 6. Əlavə istəklər
+
+* Vizitka kimi istifadə oluna bilsin
+* Gələcəkdə əlavə bölmə artırmaq mümkün olsun
+* Premium və etibarlı hiss yaratmalıdır
+
+---
+
+İstəsən:
+
+* ✍️ Sayt üçün **tam hazır mətnləri**
+* 🎨 Dizayn üçün **rəng kodları**
+* 🖥️ Birbaşa **HTML/CSS demo**
+* 💳 Vizitka dizayn mətni
+
+
+PRofessional ve animasiyali bir vebsayt hazrla

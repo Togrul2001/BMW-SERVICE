@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* BMW-inspired Technical Palette */
+  --font-display: 'Oxanium', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  /* Color System - Dark Theme Base */
+  --background: 220 20% 10%;      /* #14171F - Deep dark blue-grey */
+  --foreground: 210 20% 98%;      /* #F0F4F8 - Off-white text */
+
+  /* Primary: BMW M Blue inspired */
+  --primary: 215 85% 55%;         /* #2E7CE6 - Vibrant Mechanic Blue */
+  --primary-foreground: 210 40% 98%;
+
+  /* Secondary: Metallic Grey */
+  --secondary: 220 15% 20%;       /* #2B303B - Panel Grey */
+  --secondary-foreground: 210 40% 98%;
+
+  /* Accents */
+  --accent: 215 85% 55%;
+  --accent-foreground: 210 40% 98%;
+
+  --muted: 220 15% 25%;
+  --muted-foreground: 215 15% 65%;
+
+  --card: 220 20% 13%;            /* #1A1E29 - Slightly lighter than bg */
+  --card-foreground: 210 40% 98%;
+
+  --border: 220 15% 25%;
+  --input: 220 15% 25%;
+  --ring: 215 85% 55%;
+
+  --radius: 0.5rem;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+
+  --popover: 220 20% 10%;
+  --popover-foreground: 210 40% 98%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+    background-image: 
+      radial-gradient(circle at 50% 0%, hsl(215 85% 55% / 0.08) 0%, transparent 40%),
+      radial-gradient(circle at 100% 100%, hsl(215 85% 55% / 0.05) 0%, transparent 40%);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight uppercase;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60;
+  }
+  
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400;
+  }
+
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-md border border-white/5 shadow-xl;
+  }
+}
